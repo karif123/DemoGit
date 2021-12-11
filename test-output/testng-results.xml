@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-09T23:34:18 EST" name="Suite" finished-at="2021-12-09T23:35:20 EST" duration-ms="61944">
+    <groups>
+    </groups>
+    <test started-at="2021-12-09T23:34:18 EST" name="Verification of navigation bar" finished-at="2021-12-09T23:35:09 EST" duration-ms="51892">
+      <class name="E2EFrameWork.HomePageValidateNavigationPage">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:E2EFrameWork.HomePageValidateNavigationPage@53bc1328]" started-at="2021-12-09T23:34:18 EST" name="launchApplication" finished-at="2021-12-09T23:35:02 EST" duration-ms="44790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateNavigationPage()[pri:0, instance:E2EFrameWork.HomePageValidateNavigationPage@53bc1328]" started-at="2021-12-09T23:35:02 EST" name="validateNavigationPage" finished-at="2021-12-09T23:35:03 EST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigationPage -->
+        <test-method is-config="true" signature="browseClose()[pri:0, instance:E2EFrameWork.HomePageValidateNavigationPage@53bc1328]" started-at="2021-12-09T23:35:03 EST" name="browseClose" finished-at="2021-12-09T23:35:09 EST" duration-ms="6554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseClose -->
+      </class> <!-- E2EFrameWork.HomePageValidateNavigationPage -->
+    </test> <!-- Verification of navigation bar -->
+    <test started-at="2021-12-09T23:34:18 EST" name="Verifiction of title of Home Page" finished-at="2021-12-09T23:35:11 EST" duration-ms="53230">
+      <class name="E2EFrameWork.HomePageValidationtTitle">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:E2EFrameWork.HomePageValidationtTitle@27a0a5a2]" started-at="2021-12-09T23:34:18 EST" name="launchApplication" finished-at="2021-12-09T23:34:51 EST" duration-ms="32975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateSubBannerTitle()[pri:0, instance:E2EFrameWork.HomePageValidationtTitle@27a0a5a2]" started-at="2021-12-09T23:34:51 EST" name="validateSubBannerTitle" finished-at="2021-12-09T23:34:56 EST" duration-ms="5204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSubBannerTitle -->
+        <test-method signature="validateTitle()[pri:0, instance:E2EFrameWork.HomePageValidationtTitle@27a0a5a2]" started-at="2021-12-09T23:34:56 EST" name="validateTitle" finished-at="2021-12-09T23:34:56 EST" duration-ms="24" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at E2EFrameWork.HomePageValidationtTitle.validateTitle(HomePageValidationtTitle.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="browseClose()[pri:0, instance:E2EFrameWork.HomePageValidationtTitle@27a0a5a2]" started-at="2021-12-09T23:35:09 EST" name="browseClose" finished-at="2021-12-09T23:35:11 EST" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseClose -->
+      </class> <!-- E2EFrameWork.HomePageValidationtTitle -->
+    </test> <!-- Verifiction of title of Home Page -->
+    <test started-at="2021-12-09T23:34:18 EST" name="Verification of log in" finished-at="2021-12-09T23:35:20 EST" duration-ms="61944">
+      <class name="E2EFrameWork.HomePage">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:E2EFrameWork.HomePage@47d93e0d]" started-at="2021-12-09T23:34:18 EST" name="launchBrowser" finished-at="2021-12-09T23:34:35 EST" duration-ms="16973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="homePageOpen(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:E2EFrameWork.HomePage@47d93e0d]" started-at="2021-12-09T23:34:35 EST" name="homePageOpen" data-provider="getData" finished-at="2021-12-09T23:34:58 EST" duration-ms="23514" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestrict@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (993, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=96.0.4664.93)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-CIHR3KA', ip: '10.0.0.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b8fcb554fcefa1d2246757cf54ac631, clickElement {id=91df74b9-76f5-4d4f-a9be-ad2fa381be8a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\Biku\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52580}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52580/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1b8fcb554fcefa1d2246757cf54ac631)] -> css selector: a[href*='sign_in']]
+Session ID: 1b8fcb554fcefa1d2246757cf54ac631]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (993, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=96.0.4664.93)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-CIHR3KA', ip: '10.0.0.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b8fcb554fcefa1d2246757cf54ac631, clickElement {id=91df74b9-76f5-4d4f-a9be-ad2fa381be8a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\Biku\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52580}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52580/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1b8fcb554fcefa1d2246757cf54ac631)] -> css selector: a[href*='sign_in']]
+Session ID: 1b8fcb554fcefa1d2246757cf54ac631
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at pageObjects.LandingPage.getSignIn(LandingPage.java:32)
+at E2EFrameWork.HomePage.homePageOpen(HomePage.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageOpen -->
+        <test-method signature="homePageOpen(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:E2EFrameWork.HomePage@47d93e0d]" started-at="2021-12-09T23:35:11 EST" name="homePageOpen" data-provider="getData" finished-at="2021-12-09T23:35:16 EST" duration-ms="5313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrict@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageOpen -->
+        <test-method signature="homePageOpen(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:E2EFrameWork.HomePage@47d93e0d]" started-at="2021-12-09T23:35:16 EST" name="homePageOpen" data-provider="getData" finished-at="2021-12-09T23:35:19 EST" duration-ms="2840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[default@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageOpen -->
+        <test-method is-config="true" signature="browseClose()[pri:0, instance:E2EFrameWork.HomePage@47d93e0d]" started-at="2021-12-09T23:35:19 EST" name="browseClose" finished-at="2021-12-09T23:35:20 EST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseClose -->
+      </class> <!-- E2EFrameWork.HomePage -->
+    </test> <!-- Verification of log in -->
+  </suite> <!-- Suite -->
+</testng-results>

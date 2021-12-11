@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests" > <!-- Tests are run in parallel --> 
+<listeners>
+	<listener class-name="E2EFrameWork.Listeners"/>
+</listeners>
+  <test name="Verification of log in">
+    <classes>
+      <class name="E2EFrameWork.HomePage"/>
+    </classes>
+   </test>   
+   <test name="Verifiction of title of Home Page">
+   	 <classes>   
+      <class name="E2EFrameWork.HomePageValidationtTitle"/>
+     </classes>
+   </test>    
+   <test name="Verification of navigation bar">
+   	 <classes>  
+      <class name="E2EFrameWork.HomePageValidateNavigationPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
